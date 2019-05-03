@@ -140,26 +140,3 @@ https://rinkeby.opensea.io/category/udacityrealstatetitlev4
 * [OpenSea](https://docs.opensea.io/docs) - OpenSea is a decentralized marketplace that is used for selling for crypto assets
 * [Infura](https://infura.io/) - Scalable Blockchain Infrastructure
 * [Metamask](https://metamask.io/) - MetaMask is a bridge that allows to visit the distributed web in browser.
-
-## Acknowledgments
-* Solidity
-* Ganache-cli
-* Truffle
-* JavaScript
-* Node
-* Ethereum
-* Blockchain
-
-# Project Resources
-* [How does Ethereum work anyway?](https://medium.com/@preethikasireddy/how-does-ethereum-work-anyway-22d1df506369)
-* [Remix - Solidity IDE](https://remix.ethereum.org/)
-* [Visual Studio Code](https://code.visualstudio.com/)
-* [Truffle Framework](https://truffleframework.com/)
-* [Ganache - One Click Blockchain](https://truffleframework.com/ganache)
-* [Open Zeppelin ](https://openzeppelin.org/)
-* [Interactive zero knowledge 3-colorability demonstration](http://web.mit.edu/~ezyang/Public/graph/svg.html)
-* [Docker](https://docs.docker.com/install/)
-* [ZoKrates](https://github.com/Zokrates/ZoKrates)
-* [OpenSea](https://docs.opensea.io/docs)
-* [Infura](https://infura.io/)
-* [Metamask](https://metamask.io/)
