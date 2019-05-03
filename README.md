@@ -7,7 +7,7 @@ This is a sample application for Udacity's Blockchain course.
 
 ## Installing
 
-```
+
 #### Install required node packages 
 Change to project folder and install all requisite npm packages (as listed in ```package.json```):
 
@@ -17,6 +17,7 @@ npm install
 
 #### Open a  terminal window and Launch Ganache:
 If you are using ganache-cli use this command to add 40 funded accounts:
+
 ```
 ganache-cli -p 8545 -m "candy maple cake sugar pudding cream honey rich smooth crumble sweet treat" --gasLimit 300000000 --gasPrice 20000000000 -a 40
 
@@ -24,6 +25,7 @@ ganache-cli -p 8545 -m "candy maple cake sugar pudding cream honey rich smooth c
 
 #### Open a separate terminal window and  compile smart contracts:
 cd eth-contracts
+
 ```
 truffle compile
 ```
@@ -31,7 +33,8 @@ truffle compile
 This will create the smart contract artifacts in folder ```./build/contracts```.
 
 #### Migrate smart contracts to the locally running blockchain, ganache-cli:
-Change to the folder ```eth-contracts``` 
+Change to the folder ```eth-contracts```
+
 ```
 truffle migrate --reset
 ```
