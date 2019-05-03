@@ -1,0 +1,173 @@
+ASMAHANs-MacBook-Pro:eth-contracts asmahan$ truffle migrate --network rinkeby
+ASMAHANs-MacBook-Pro:eth-contracts asmahan$ export INFURA_KEY="75df69ce81ab41fd9b0cc4bb3adcd64c"
+ASMAHANs-MacBook-Pro:eth-contracts asmahan$ export MNEMONIC="middle ranch right buffalo merry young purpose smile advice misery term habit"
+ASMAHANs-MacBook-Pro:eth-contracts asmahan$ export NETWORK="rinkeby"
+ASMAHANs-MacBook-Pro:eth-contracts asmahan$ truffle migrate --network rinkeby --reset
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+Migrations dry-run (simulation)
+===============================
+> Network name:    'rinkeby-fork'
+> Network id:      4
+> Block gas limit: 0x6ab535
+
+
+1_initial_migration.js
+======================
+
+   Replacing 'Migrations'
+   ----------------------
+   > block number:        4316672
+   > block timestamp:     1556879527
+   > account:             0x4e8EE810dd47bd3d5A9aC7e5C6fe579a18208567
+   > balance:             32.040841556
+   > gas used:            258162
+   > gas price:           2 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000516324 ETH
+
+   -------------------------------------
+   > Total cost:         0.000516324 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Replacing 'ERC721Mintable'
+   --------------------------
+   > block number:        4316674
+   > block timestamp:     1556879562
+   > account:             0x4e8EE810dd47bd3d5A9aC7e5C6fe579a18208567
+   > balance:             32.033222288
+   > gas used:            3782606
+   > gas price:           2 gwei
+   > value sent:          0 ETH
+   > total cost:          0.007565212 ETH
+
+
+   Replacing 'Verifier'
+   --------------------
+   > block number:        4316675
+   > block timestamp:     1556879579
+   > account:             0x4e8EE810dd47bd3d5A9aC7e5C6fe579a18208567
+   > balance:             32.02967242
+   > gas used:            1774934
+   > gas price:           2 gwei
+   > value sent:          0 ETH
+   > total cost:          0.003549868 ETH
+
+
+   Replacing 'SolnSquareVerifier'
+   ------------------------------
+   > block number:        4316676
+   > block timestamp:     1556879612
+   > account:             0x4e8EE810dd47bd3d5A9aC7e5C6fe579a18208567
+   > balance:             32.019860262
+   > gas used:            4906079
+   > gas price:           2 gwei
+   > value sent:          0 ETH
+   > total cost:          0.009812158 ETH
+
+   -------------------------------------
+   > Total cost:         0.020927238 ETH
+
+
+Summary
+=======
+> Total deployments:   4
+> Final cost:          0.021443562 ETH
+
+
+Starting migrations...
+======================
+> Network name:    'rinkeby'
+> Network id:      4
+> Block gas limit: 0x6acfc0
+
+
+1_initial_migration.js
+======================
+
+   Replacing 'Migrations'
+   ----------------------
+   > transaction hash:    0x0460ae40e4947fc363bcdcb90388cae742829ec779f86cd0d88f64459c1fa8ac
+   > Blocks: 0            Seconds: 5
+   > contract address:    0x11C7499ef609F4036B8CAA8C13169D2b7139ddb9
+   > block number:        4316679
+   > block timestamp:     1556879640
+   > account:             0x4e8EE810dd47bd3d5A9aC7e5C6fe579a18208567
+   > balance:             32.03589464
+   > gas used:            273162
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00546324 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.00546324 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Replacing 'ERC721Mintable'
+   --------------------------
+   > transaction hash:    0xe094662a05f39f6bffd3fd1b21fd4327d9144fa69b61e61afc9a3c16d7a127f1
+   > Blocks: 0            Seconds: 9
+   > contract address:    0x35431BD72eB4d7aB058a60bf7bC7eA909eeB89cA
+   > block number:        4316682
+   > block timestamp:     1556879685
+   > account:             0x4e8EE810dd47bd3d5A9aC7e5C6fe579a18208567
+   > balance:             31.95649796
+   > gas used:            3927806
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.07855612 ETH
+
+
+   Replacing 'Verifier'
+   --------------------
+   > transaction hash:    0xe94184f12112764faf603e5b8716ab7d4db9b045d3f322778881dd63940108a2
+   > Blocks: 1            Seconds: 9
+   > contract address:    0x57836AcAA4bcD4F514AC06D3202ff96D9669dEE9
+   > block number:        4316683
+   > block timestamp:     1556879700
+   > account:             0x4e8EE810dd47bd3d5A9aC7e5C6fe579a18208567
+   > balance:             31.92099928
+   > gas used:            1774934
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.03549868 ETH
+
+
+   Replacing 'SolnSquareVerifier'
+   ------------------------------
+   > transaction hash:    0x3d9f925b3a6fe154744e51eae77b0aa3d2ee1f6b6f850bf8f551f263b97789bd
+   > Blocks: 0            Seconds: 5
+   > contract address:    0xc6d18338449A7173fDC1887507b3E23dCfD15B20
+   > block number:        4316684
+   > block timestamp:     1556879715
+   > account:             0x4e8EE810dd47bd3d5A9aC7e5C6fe579a18208567
+   > balance:             31.8196737
+   > gas used:            5066279
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.10132558 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.21538038 ETH
+
+
+Summary
+=======
+> Total deployments:   4
+> Final cost:          0.22084362 ETH
