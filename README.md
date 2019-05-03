@@ -1,5 +1,7 @@
+# Blockchain Developer Nanodegree [![Udacity - Blockchain Developer Nanodegree](https://bit.ly/2svzNOI)](https://www.udacity.com/blockchain)
+
 # Udacity Blockchain Capstone
-This is a sample application for Udacity's Blockchain course.  A decentralized house listing service.
+This is a sample application for Udacity's Blockchain course. 
 
 ## Getting Started
 
@@ -44,23 +46,18 @@ truffle test ./test/TestERC721Mintable.js
 
 ![TestERC721Mintable.js](images/TestERC721Mintable.png)
 
-All 12 tests should pass.
-
 ```
 truffle test ./test/TestSolnSquareVerifier.js  
 ```
 
 ![TestSolnSquareVerifier.js](images/TestSolnSquareVerifier.png)
 
-All 8 tests should pass.
 
 ```
 truffle test ./test/TestSquareVerifier.js  
 ```
 
 ![TestSquareVerifier.js](images/TestSquareVerifier.png)
-
-All 2 tests should pass.
 
 
 #### Deploying contracts to rinkeby
